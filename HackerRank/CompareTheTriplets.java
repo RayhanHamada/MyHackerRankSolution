@@ -9,8 +9,7 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 public class Solution {
-
-    // Complete the solve function below.
+    
     static int[] solve(int[] a, int[] b) {
         int[] abCount = {0,0};
         for (int i = 0; i < 3; i++) 
